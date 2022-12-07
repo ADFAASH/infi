@@ -249,7 +249,7 @@
 }
 
 
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 400px) {
 
   .nav-links {
       top: -8px;
