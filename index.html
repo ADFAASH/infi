@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login-Fintory</title>
+</head>
+<body>
+        
+    <video autoplay muted loop id="myVideo">
+        <source src="/backgrounds/videoo.mp4" type="video/mp4">
+      </video>
+
+      
+    <nav class="navbar">
+        <a class="logo" href="#"> <img src="/Logos/logo.png"><p>Fintory</p></a>
+        <div class="nav-links">
+            <ul>
+                <li><a class="serv" href="#">Services</a></li>
+                <li><a class="Cas" href="#">Case Studies</a></li>
+                <li><a class="Blo" href="#">Blog</a></li>
+                <li><a class="Abo" href="#">About</a></li>
+                <li><a class="Dri" href="#">Dribble</a></li>
+                <li><a class="con" href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <img class="menu" src="/backgrounds/menu-btn.png">
+    </nav>
+
+    <div class="login_box">
+        <p class="login_top">Login</p>
+        <p class="text">Enter your email address and password <br>to access your account</p>
+        <input type="text" placeholder="User Name"><br>
+        <input type="password" placeholder="Password"><br>
+        <button class="btn_log">Log in</button>
+        <p><a class="forgot" href="#">Forgot Password ?</a></p>
+    </div>
+
+    <input class="check" type="checkbox">
+    <p class="rem">Remember</p>
+    <div class="sign">
+        <p>Don't have an account, <a class="a" href="#">Sign up</a> please</p>
+    </div>
+
+</body>
+    <script>
+        const menu = document.querySelector(".menu")
+        const navLinks = document.querySelector(".nav-links")
+
+        menu.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+</html>

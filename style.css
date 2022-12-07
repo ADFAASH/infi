@@ -1,0 +1,291 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+#myVideo {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 98%;
+}
+
+.navbar{
+  position: absolute;
+  margin-left: -1px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 99.6%;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: 'poppins';
+
+}
+
+  .navbar a{
+    color: white;
+    text-decoration: none;
+  }
+  .navbar .logo {
+    font-size: 2em;
+    text-decoration: none;
+    margin-left: -50px;
+    margin-top: -50px;
+  }
+
+  .navbar p{
+    margin-top: -65px;
+    margin-left: 100px;
+  }
+
+  .navbar .nav-links ul{
+    display: flex;
+    list-style: none;
+    margin-top: -40px;
+
+    
+  }
+  .navbar .nav-links ul li{
+    margin: 0 25px;
+    
+  }
+  
+
+
+  .menu{
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  width:55px
+}
+
+  .mobile-menu{
+    margin-left: 0;
+  }
+
+                /* line hover*/
+  .serv{
+    position: relative;
+}
+.serv:after{
+    content:"";
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+.serv:hover:after{
+    width: 100%;
+}
+
+.Cas{
+  position: relative;
+}
+.Cas:after{
+  content:"";
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+.Cas:hover:after{
+  width: 100%;
+}
+
+.Blo{
+  position: relative;
+}
+.Blo:after{
+  content:"";
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+.Blo:hover:after{
+  width: 100%;
+}
+
+.Abo{
+  position: relative;
+}
+.Abo:after{
+  content:"";
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+.Abo:hover:after{
+  width: 100%;
+}
+
+.Dri{
+  position: relative;
+}
+.Dri:after{
+  content:"";
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+.Dri:hover:after{
+  width: 100%;
+}
+
+.con{
+  position: relative;
+}
+.con:after{
+  content:"";
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+.con:hover:after{
+  width: 100%;
+}
+                /*login box*/
+                
+.login_box{
+  font-family: 'poppins';
+  color: white;
+  position: absolute;
+  margin:200px 0 0 50px;
+  padding: 20px 25px 20px 20px;
+  border: 1px solid white;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.062);
+  backdrop-filter: blur(20px);
+
+}
+
+.login_top{
+  font-size: 30px;
+  margin: 0 0px 0px 130px ;
+}
+
+.text{
+  padding: 15px 0 15px 0;
+  text-align: center;
+}
+
+.login_box input{
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 0 0 35px 15px;
+  padding: 12px 0 12px 5px;
+  width: 300px;
+  color: white;
+}
+
+.sign{
+  font-family: 'poppins';
+  color: white;
+  position: absolute;
+  margin: 680px 0 0 50px;
+  padding: 4px 28px 4px 26px;
+  border: 1px solid white;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.062);
+
+}
+.sign a{
+  text-decoration: none;
+  color: rgb(214, 125, 255);
+  font-weight: bold;
+}
+.check{
+  position: absolute;
+  margin: 504px 0 0 90px;
+}
+.rem{
+  font-family: 'poppins';
+  position: absolute;
+  margin: 502px 0 0 110px;
+  color: white;
+  font-size: 12px;
+}
+
+.btn_log{
+  margin: 10px 0 0 120px;
+  padding: 8px 25px 8px 25px;
+  font-family: 'poppins';
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+}
+
+.forgot{
+  text-decoration: none;
+  color: white;
+}
+
+
+  @media screen and (max-width: 992px) {
+
+  .nav-links {
+      top: -8px;
+      left: -8px;
+      position: absolute;
+      display: flex;
+      background-color: rgba(161, 161, 161, 0.192);
+      height: 100px;
+      padding-top: 40px;
+      padding-bottom: 30px;
+      height: 100vh;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      backdrop-filter: blur(5px);
+      margin-left: -100%;
+      transition: all 0.5s ease;
+  }
+
+  .nav-links.mobile-menu{
+    margin-left: 0;
+  }
+
+
+  .nav-links ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+ }
+  .menu{
+    display: block;
+  }
+
+  .navbar .nav-links ul li{
+    margin: 25px 0;
+    font-size: 1.2em;
+  }
+  }
